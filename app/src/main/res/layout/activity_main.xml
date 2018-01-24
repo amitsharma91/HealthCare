@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    android:orientation="vertical"
     android:padding="8dp"
     tools:context="tk.developeramit.healthcare.MainActivity">
 
@@ -13,7 +12,17 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
+        android:layout_gravity="center_vertical|center_horizontal"
         android:padding="8dp">
+
+        <ImageButton
+            android:layout_width="106dp"
+            android:src="@drawable/healthcare"
+            android:layout_height="106dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="24dp"
+            />
 
         <EditText
             android:id="@+id/login_emial"
@@ -68,4 +77,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</FrameLayout>
