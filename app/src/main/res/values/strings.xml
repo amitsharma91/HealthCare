@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="login_button">Login</string>
+    <string name="login_emial_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="not_register_button">Not a member? Sign up now.</string>
+</resources>
